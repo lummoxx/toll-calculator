@@ -1,0 +1,36 @@
+# Build outputs
+bin/
+obj/
+out/
+publish/
+
+# Visual Studio workspace
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+.packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# VS Code
+.vscode/
+
+# Profiling
+*.psess
+*.vsp
+*.vspx
+
+# Generated files
+**/obj/**/project.assets.json
+**/*.csproj.nuget.g.props
+**/*.csproj.nuget.g.targets
+
+# OS files
+.DS_Store
+Thumbs.db
